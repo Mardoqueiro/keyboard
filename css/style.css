@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAE3CF;
+}
+
+.container{
+  margin: 160px 0 0 120px;
+} 
+
+.row{
+  width: 100%;
+  height: 60px;
+}
+
+.one,.two,.three,.four,.five,.six{
+  margin: 10px 0 0 0;
+}
+button{
+  color: #FAE3CF;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background: #0A0F24;
+  box-shadow: 5px 5px 10px #FA8603, -5px -5px 10px #0A0F24;
+  font-size: 20px;
+  margin-left: 5px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20%;
+}
+
+button:active{
+  box-shadow: 1px 1px 2px #FAE3CF, -1px -1px 2px #0A0F24;
+}
+
+.back{
+  width: 175px;
+  border-radius: 10px;
+}
+.Tab{
+  width: 130px;
+  border-radius: 10px;
+}
+.slace{
+  width: 100px;
+  border-radius: 10px;
+}
+.Caps{
+  width: 150px;
+  border-radius: 10px;
+}
+.ent-btn{
+  width: 145px;
+  border-radius: 10px;
+}
+.shift{
+  width: 180px;
+  border-radius: 10px;
+}
+.other{
+  width: 82px;
+  border-radius: 10px;
+}
+.space{
+  width: 400px;
+  border-radius: 10px;
+}
+/*.plus{
+  width: ;
+  border-radius: 10px;
+}*/
+.ins{
+  width: 120px;
+  border-radius: 10px;
+}
